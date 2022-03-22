@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-sequtils2-master.flake = false;
+  inputs.src-sequtils2-master.ref   = "refs/heads/master";
   inputs.src-sequtils2-master.owner = "Michedev";
-  inputs.src-sequtils2-master.ref   = "master";
   inputs.src-sequtils2-master.repo  = "sequtils2";
   inputs.src-sequtils2-master.type  = "github";
   
